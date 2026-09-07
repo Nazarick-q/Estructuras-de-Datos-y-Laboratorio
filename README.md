@@ -1,7 +1,7 @@
 ```
 Hola. \(*v*)/ 
-Acá estaré subiendo todos mis laboratorios de Estructuras de datos y laboratorio de la UdeA.
-Para mas información acerca de los archivos revisa la wiki. 
+Acá estaré subiendo todos mis laboratorios de Estructuras de Datos y Laboratorio de la UdeA.
+Para mas información acerca de los laboratorios/archivos revisa la wiki. 
 
 
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠎⠀⠀⡞⡷⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢧⠘⡍⢳⡀⠀⠀
