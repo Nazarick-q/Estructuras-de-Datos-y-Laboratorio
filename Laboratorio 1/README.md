@@ -17,8 +17,11 @@ Genera y consulta una matriz binaria masiva almacenada en un formato compacto de
 
 ## Ejecución paso a paso
 
-Parado dentro de esta carpeta (`/Labo1ED`):
+Parado en la raíz del repositorio (justo después del `git clone`), entra a esta carpeta:
 
+```bash
+cd "Laboratorio 1"
+```
 ### 1. Generar la matriz
 
 ```bash
