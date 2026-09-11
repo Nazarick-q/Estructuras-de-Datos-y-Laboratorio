@@ -23,7 +23,7 @@ cd Estructuras-de-Datos-y-Laboratorio
 
 | # | Laboratorio | Carpeta | Wiki |
 |---|---|---|---|
-| 1 | Matriz binaria 100.000 x 100.000 | [`/Labo1ED`](./Labo1ED) | [Laboratorio 1](https://github.com/Nazarick-q/Estructuras-de-Datos-y-Laboratorio/wiki/Laboratorio-1) |
+| 1 | Matriz binaria 100.000 x 100.000 | [`/Laboratorio 1`](./Laboratorio%201) | [Laboratorio 1](https://github.com/Nazarick-q/Estructuras-de-Datos-y-Laboratorio/wiki/Laboratorio-1) |
 
 > Entra a la carpeta de cada labo para ver su README con instrucciones especificas de instalacion y ejecucion.
 ```
