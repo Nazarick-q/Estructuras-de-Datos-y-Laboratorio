@@ -1,6 +1,7 @@
 # Estructuras de Datos y Laboratorio
 
-Hola. ```  \(*v*)/  ```
+Hola, ¿como estas? ```  \(*v*)/  ```
+
 Repositorio con los laboratorios y talleres desarrollados a lo largo de la materia. Cada laboratorio vive en su propia carpeta, con su propio `README.md` explicando cómo instalarlo y ejecutarlo. La documentación a fondo de cada uno (diseño, formato de datos, decisiones tomadas) está en la **[Wiki](https://github.com/Nazarick-q/Estructuras-de-Datos-y-Laboratorio/wiki)**.
 
 ## Requisitos generales
