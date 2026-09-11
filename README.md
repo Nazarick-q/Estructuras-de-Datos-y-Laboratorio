@@ -1,7 +1,32 @@
+# Estructuras de Datos y Laboratorio
+
+Hola. ```  \(*v*)/  ```
+Repositorio con los laboratorios y talleres desarrollados a lo largo de la materia. Cada laboratorio vive en su propia carpeta, con su propio `README.md` explicando cómo instalarlo y ejecutarlo. La documentación a fondo de cada uno (diseño, formato de datos, decisiones tomadas) está en la **[Wiki](https://github.com/Nazarick-q/Estructuras-de-Datos-y-Laboratorio/wiki)**.
+
+## Requisitos generales
+
+- **JDK 17 o superior**
+```bash
+  java -version
+  javac -version
 ```
-Hola. \(*v*)/ 
-Acá estaré subiendo todos mis laboratorios de Estructuras de Datos y Laboratorio de la UdeA.
-Para mas información acerca de los laboratorios/archivos revisa la wiki. 
+- Cada carpeta de labo puede tener requisitos adicionales (espacio en disco, etc.) — se detallan en su propio README.
+
+## Instalación
+
+```bash
+git clone https://github.com/Nazarick-q/Estructuras-de-Datos-y-Laboratorio.git
+cd Estructuras-de-Datos-y-Laboratorio
+```
+
+## Índice de laboratorios
+
+| # | Laboratorio | Carpeta | Wiki |
+|---|---|---|---|
+| 1 | Matriz binaria 100.000 x 100.000 | [`/Labo1ED`](./Labo1ED) | [Laboratorio 1](https://github.com/Nazarick-q/Estructuras-de-Datos-y-Laboratorio/wiki/Laboratorio-1) |
+
+> Entra a la carpeta de cada labo para ver su README con instrucciones especificas de instalacion y ejecucion.
+```
 
 
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠎⠀⠀⡞⡷⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢧⠘⡍⢳⡀⠀⠀
