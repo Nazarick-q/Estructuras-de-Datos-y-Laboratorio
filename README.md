@@ -11,6 +11,10 @@ Repositorio con los laboratorios y talleres desarrollados a lo largo de la mater
   java -version
   javac -version
 ```
+- **Python 3.9 o superior**
+```bash
+- No necesita instalar librerías externas: solo usa `hashlib`, que ya viene con Python.
+```
 - Cada carpeta de labo puede tener requisitos adicionales (espacio en disco, etc.) — se detallan en su propio README.
 
 ## Instalación
@@ -25,6 +29,7 @@ cd Estructuras-de-Datos-y-Laboratorio
 | # | Laboratorio | Carpeta | Wiki |
 |---|---|---|---|
 | 1 | Matriz binaria 100.000 x 100.000 | [Laboratorio 1](./Laboratorio%201) | [Wiki Laboratorio 1](https://github.com/Nazarick-q/Estructuras-de-Datos-y-Laboratorio/wiki/Laboratorio-1) |
+| 2 | Arbol de Merkle | [Laboratorio 2](./Laboratorio%202) | [Wiki Laboratorio 2](https://github.com/Nazarick-q/Estructuras-de-Datos-y-Laboratorio/wiki/Laboratorio-2) |
 
 > Entra a la carpeta de cada labo para ver su README con instrucciones especificas de instalacion y ejecucion.
 ```
