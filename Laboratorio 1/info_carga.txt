@@ -1,5 +1,5 @@
 Operacion: Leer un chunk (filas x columnas)
 
-Filas cargadas: 11 (indices 10 a 20)
-Columnas cargadas: 11 (indices 10 a 20)
-Total de valores en RAM: 121
+Filas cargadas: 10 (indices 0 a 9)
+Columnas cargadas: 10 (indices 0 a 9)
+Total de valores en RAM: 100
