@@ -30,6 +30,10 @@ python lab3.py
 
 No se necesitan entradas del usuario: al ejecutarse mostrara el avance en consola, al final se generaran 3 archivos `.png` y un archivo `.csv` 
 
+## Más detalle
+
+El formato exacto del archivo binario, la explicación de cada opción del menú, y la herramienta de diagnóstico están documentados a fondo en la **[wiki de este laboratorio](https://github.com/Nazarick-q/Estructuras-de-Datos-y-Laboratorio/wiki/Laboratorio-3)**.
+
 
 ## Código de Honor y Uso de IA
 
