@@ -14,6 +14,15 @@ El sistema mide los tiempos de ejecución de las operaciones de Inserción, Bús
 * Librerías estándar de Python: `time`, `random`, `statistics`, `sys`, `bisect`, `csv`, `gc`.
 * Librería externa: `matplotlib`.
 
+## Archivos de esta carpeta
+| Archivo | Rol |
+| --- | --- |
+| `lab3.py` | Script principal que contiene la implementación de las estructuras de datos (Listas, ABB, B+), el marco de pruebas de medición de tiempo y la generación de las gráficas del laboratorio. |
+| `grafica_1_insercion.png` | Visualización comparativa del tiempo total de construcción (inserción masiva) frente al tamaño de entrada $N$. |
+| `grafica_2_busqueda.png` | Visualización comparativa del tiempo promedio por búsqueda (en escala logarítmica) para contrastar la eficiencia $O(\log N)$ de estructuras balanceadas frente al $O(N)$ del peor caso. |
+| `grafica_3_listar.png` | Visualización comparativa del tiempo de ejecución al recorrer y extraer todos los registros de manera secuencial y ordenada ($O(N) $). |
+| `resultados_laboratorio.csv` | Registro de datos crudos en formato largo (Tidy Data) que contiene las métricas estadísticas (tiempos, medianas, desviación estándar) para auditar y reproducir el experimento en herramientas externas. |
+
 ## Ejecución paso a paso
 
 Parado en la raíz del repositorio (justo después del `git clone`), entra a esta carpeta:
