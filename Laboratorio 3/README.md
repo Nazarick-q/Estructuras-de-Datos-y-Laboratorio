@@ -16,12 +16,12 @@ El sistema mide los tiempos de ejecución de las operaciones de Inserción, Bús
 
 ## Archivos de esta carpeta
 | Archivo | Rol |
-| --- | --- |
-| `lab3.py` | Script principal que contiene la implementación de las estructuras de datos (Listas, ABB, B+), el marco de pruebas de medición de tiempo y la generación de las gráficas del laboratorio. |
-| `grafica_1_insercion.png` | Visualización comparativa del tiempo total de construcción (inserción masiva) frente al tamaño de entrada $N$. |
-| `grafica_2_busqueda.png` | Visualización comparativa del tiempo promedio por búsqueda (en escala logarítmica) para contrastar la eficiencia $O(\log N)$ de estructuras balanceadas frente al $O(N)$ del peor caso. |
-| `grafica_3_listar.png` | Visualización comparativa del tiempo de ejecución al recorrer y extraer todos los registros de manera secuencial y ordenada ($O(N) $). |
-| `resultados_laboratorio.csv` | Registro de datos crudos en formato largo (Tidy Data) que contiene las métricas estadísticas (tiempos, medianas, desviación estándar) para auditar y reproducir el experimento en herramientas externas. |
+|---|---|
+| `lab3.py` | Script principal con las implementaciones, el motor de pruebas y la lógica de graficado. |
+| `grafica_1_insercion.png` | Visualización del tiempo total de construcción (inserción masiva) frente al tamaño $N$. |
+| `grafica_2_busqueda.png` | Visualización del tiempo promedio por búsqueda unitaria (en escala logarítmica). |
+| `grafica_3_listar.png` | Visualización del tiempo total para recorrer y extraer todos los registros ($O(N)$). |
+| `resultados_laboratorio.csv` | Registro de datos crudos (Tidy Data) con las métricas (mediana, desviación estándar). |
 
 ## Ejecución paso a paso
 
