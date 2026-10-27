@@ -15,9 +15,9 @@ def guardar_figura(fig, nombre):
     print(f"Figura guardada en: {ruta}")
     return ruta
 
-def crear_arbol(k=2, n=500, capacidad=16): # Inicialmente se usan 500 puntos para evitar saturacion en la grafica
+def crear_arbol(k=2, n=10000, capacidad=16): # Dimension, cantidad de puntos, capacidad del bucket
     limite = HiperCubo([0] * k, [10000] * k)  # Centro y mitades del hipercubo, se peden modificar para cambiar tamaño y centro del mapa
-    arbol = HyperOctree(limite, capacidad)       # capacidad = tamaño del bucket
+    arbol = HyperOctree(limite, capacidad) 
     puntos = [Punto([random.uniform(-10000, 10000) for _ in range(k)]) for _ in range(n)] # Cambia distribucion de los puntos
     for p in puntos:
         arbol.insertar(p)
@@ -30,9 +30,8 @@ def test_visual_vecino_mas_cercano():
     ubicacion_dada = Punto([0, 0]) # Cambia punto de referencia
     mejor_punto, mejor_distancia = arbol.vecino_mas_cercano(ubicacion_dada)
 
-    # Validación
-    esperado = min(puntos, key=lambda p: p.distancia(ubicacion_dada))
-    assert mejor_punto is esperado, "El vecino más cercano no coincide con fuerza bruta"
+    esperado = min(puntos, key=lambda p: p.distancia(ubicacion_dada)) # Validación
+    assert mejor_punto is esperado, "El vecino más cercano no coincide con fuerza bruta" # Solo se muestra si hay error
 
     fig, ax = plt.subplots(figsize=(8, 8))
     ax.scatter([p.coordenadas[0] for p in puntos], [p.coordenadas[1] for p in puntos], c='lightgray', s=15, label='Entregas')
@@ -59,9 +58,8 @@ def test_visual_busqueda_radio():
     radio = 500
     encontrados = arbol.busqueda_radio(ubicacion_dada, radio)
 
-    esperados = [p for p in puntos if p.distancia(ubicacion_dada) <= radio]
-    assert set(map(id, encontrados)) == set(map(id, esperados)), \
-        "La búsqueda por radio no coincide con fuerza bruta"
+    esperados = [p for p in puntos if p.distancia(ubicacion_dada) <= radio] # Validación
+    assert set(map(id, encontrados)) == set(map(id, esperados)), "La búsqueda por radio no coincide con fuerza bruta" # Solo se muestra si hay error
 
     fig, ax = plt.subplots(figsize=(8, 8))
     ax.scatter([p.coordenadas[0] for p in puntos], [p.coordenadas[1] for p in puntos], c='lightgray', s=15, label='Entregas')
