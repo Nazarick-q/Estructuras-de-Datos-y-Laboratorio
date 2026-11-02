@@ -26,7 +26,7 @@ def ejecutar_analisis_completo():
     if SEMILLA is not None:
         random.seed(SEMILLA)
 
-    tamanos_n = [100, 300, 500, 1000, 5000, 10000, 25000, 50000, 100000, 150000, 200000, 250000, 300000]
+    tamanos_n = [100, 300, 500, 1000, 5000, 10000, 25000, 50000, 100000, 150000, 200000, 250000, 300000] # Se puede aumentar o disminuir para cambiar los tiempos de ejecución
     
     tiempos_arbol_radio = []
     tiempos_fb_radio = []
@@ -34,9 +34,9 @@ def ejecutar_analisis_completo():
     tiempos_arbol_vecino = []
     tiempos_fb_vecino = []
 
-    cliente = Punto([0, 0])
-    radio = 1500
-    capacidad_bucket = 16
+    cliente = Punto([0, 0]) # Punto de referencia
+    radio = 1500 # Radio de busqueda
+    capacidad_bucket = 16 # Capacidad del bucket
 
     print("=" * 50)
     print("HYPEROCTREE (K=2) VS FUERZA BRUTA (ESCALA LOG-LOG)")

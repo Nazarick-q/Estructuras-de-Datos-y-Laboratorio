@@ -9,7 +9,6 @@ CARPETA_SALIDA = os.path.dirname(os.path.abspath(__file__))
 SEMILLA = 31102025 # Reproductibilidad de las pruebas
 
 def guardar_figura(fig, nombre):
-    """Guarda la figura en la misma carpeta donde está el script test.py."""
     ruta = os.path.join(CARPETA_SALIDA, nombre)
     fig.savefig(ruta, dpi=150, bbox_inches="tight")
     print(f"Figura guardada en: {ruta}")
