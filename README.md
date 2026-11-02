@@ -31,6 +31,7 @@ cd Estructuras-de-Datos-y-Laboratorio
 | 1 | Matriz binaria 100.000 x 100.000 | [Laboratorio 1](./Laboratorio%201) | [Wiki Laboratorio 1](https://github.com/Nazarick-q/Estructuras-de-Datos-y-Laboratorio/wiki/Laboratorio-1) |
 | 2 | Arbol de Merkle | [Laboratorio 2](./Laboratorio%202) | [Wiki Laboratorio 2](https://github.com/Nazarick-q/Estructuras-de-Datos-y-Laboratorio/wiki/Laboratorio-2) |
 | 3 | Sistema de busqueda | [Laboratorio 3](./Laboratorio%203) | [Wiki Laboratorio 3](https://github.com/Nazarick-q/Estructuras-de-Datos-y-Laboratorio/wiki/Laboratorio-3) |
+| 4 | Arbol K-D | [Laboratorio 4](./Laboratorio%204) | [Wiki Laboratorio 4](https://github.com/Nazarick-q/Estructuras-de-Datos-y-Laboratorio/wiki/Laboratorio-4) |
 
 > Entra a la carpeta de cada labo para ver su README con instrucciones especificas de instalacion y ejecucion.
 ```
