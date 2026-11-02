@@ -6,8 +6,9 @@ Universidad de Antioquia
 2026-2
 """
 
+import heapq
+import itertools
 import math
-
 
 class Punto:
     def __init__(self, coordenadas, data=None):
@@ -31,8 +32,7 @@ class HiperCubo:
                 return False
         return True
 
-    def distancia_cuadrada_a(self, coordenadas):
-        """Distancia al cuadrado desde unas coordenadas al hipercubo (0 si está dentro)."""
+    def distancia_cuadrada(self, coordenadas):
         total = 0
         for i in range(self.k):
             inferior = self.centro[i] - self.mitades[i]
@@ -44,10 +44,10 @@ class HiperCubo:
         return total
 
     def distancia_al_cubo(self, punto):
-        return math.sqrt(self.distancia_cuadrada_a(punto.coordenadas))
+        return math.sqrt(self.distancia_cuadrada(punto.coordenadas))
 
     def intersecta_esfera(self, centro_esfera, radio):
-        return self.distancia_cuadrada_a(centro_esfera) <= radio ** 2
+        return self.distancia_cuadrada(centro_esfera) <= radio ** 2
 
 
 class HyperOctree:
